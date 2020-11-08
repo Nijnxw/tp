@@ -75,7 +75,7 @@ User Guide.
 The following figure shows the _GUI_ of **Serenity**.
 It is annotated with the name of the _GUI_ components.
 
-<p align="center"><img src="images/Ui_annotated.png" alt="Layout of GUI"></p>
+<p align="center"><img src="images/userGuide/Ui_annotated_2.png" alt="Layout of GUI"></p>
 
 <p align="center"><i>Figure 3.2.1.1 layout of GUI.</i></p>
 
