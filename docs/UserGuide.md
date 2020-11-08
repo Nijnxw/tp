@@ -41,7 +41,7 @@ To get started with using **Serenity**, you can follow these steps:
 4. Double-click the file to start the app. The _GUI_ similar to the image below should appear in a few seconds.
 
    <p align="center"><img src="images/userGuide/Gui.png"
-      alt="Layout of GUI"></p>
+      alt="Layout of GUI" border="1px solid black"></p>
    <p align="center"><i>Figure 2.1 Welcome screen.</i></p>
 
 5. Type the command in the _Command Box_ and press `Enter` to execute it. 
@@ -75,8 +75,8 @@ User Guide.
 The following figure shows the _GUI_ of **Serenity**.
 It is annotated with the name of the _GUI_ components.
 
-<p align="center"><img src="images/userGuide/GuiAnnotated.png" alt="Layout of GUI"></p>
-
+<p align="center"><img src="images/userGuide/GuiAnnotated.png" 
+   alt="Layout of GUI"></p>
 <p align="center"><i>Figure 3.2.1.1 Annotated GUI of Serenity.</i></p>
 
 What the 6 main components of the _GUI_ do:
@@ -114,7 +114,7 @@ for you to check on the student and perform any follow-up actions, if necessary.
 >proceed with teaching. With the flag attendance tab, you will be reminded to check again after class.
 
 <p align="center"><img src="images/userGuide/pages/HomePageFlagAttendanceTab.png" 
-   alt="Picture of flag attendance GUI"></p>
+   alt="Picture of flag attendance GUI" border="1px solid black"></p>
 <p align="center"><i>Figure 3.2.2.1 User interface showing the layout of the flagged attendance tab.</i></p>
 
 * Pending questions tab: this tab shows the questions asked by students across all your tutorial groups,
@@ -122,7 +122,7 @@ providing a convenient place for you to keep track of all the questions asked by
 across your tutorial groups and lessons.
 
 <p align="center"><img src="images/userGuide/pages/HomePageQuestionsTab.png"
-   alt="Picture of questions GUI"></p>
+   alt="Picture of questions GUI" border="1px solid black"></p>
 <p align="center"><i>Figure 3.2.2.2 User interface showing the layout of the questions tab.</i></p>
 
 ##### **Tutorial group page**
@@ -142,7 +142,7 @@ of all the students in the tutorial group across all the tutorial lessons.
 the class participation grades of all the students in the tutorial group across all the tutorial lessons.
 
 <p align="center"><img src="images/userGuide/pages/GroupPage.png" 
-   alt="Picture of group GUI"></p>
+   alt="Picture of group GUI" border="1px solid black"></p>
 <p align="center"><i>Figure 3.2.2.3 User interface showing the layout of the group tab.</i></p>
 
 ##### **Tutorial lesson page**
@@ -159,7 +159,7 @@ You may also flag the student's attendance if necessary.
 you may add, edit, find or delete a [question](#44-question-addressing) that was asked during this tutorial lesson.
 
 <p align="center"><img src="images/userGuide/pages/LessonPage.png" 
-   alt="Picture of lesson GUI"></p>
+   alt="Picture of lesson GUI" border="1px solid black"></p>
 <p align="center"><i>Figure 3.2.2.4 User interface showing the layout of the lesson tab.</i></p>
 
 #### 3.2.3. General symbols and syntax
