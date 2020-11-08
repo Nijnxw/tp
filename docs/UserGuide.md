@@ -113,16 +113,16 @@ for you to check on the student and perform any follow-up actions, if necessary.
 > :bulb: TIP: Class has started! `Aaron Tan` is not in the zoom class yet. Flag his attendance and 
 >proceed with teaching. With the flag attendance tab, you will be reminded to check again after class.
 
-<p align="center"><img src="images/flaggedatt.png" alt="Picture of flag attendance GUI"></p>
-
+<p align="center"><img src="images/userGuide/pages/HomePageFlagAttendanceTab.png" 
+   alt="Picture of flag attendance GUI"></p>
 <p align="center"><i>Figure 3.2.2.1 User interface showing the layout of the flagged attendance tab.</i></p>
 
 * Pending questions tab: this tab shows the questions asked by students across all your tutorial groups,
 providing a convenient place for you to keep track of all the questions asked by students
 across your tutorial groups and lessons.
 
-<p align="center"><img src="images/questionsGUI.png" alt="Picture of questions GUI"></p>
-
+<p align="center"><img src="images/userGuide/pages/HomePageQuestionsTab.png"
+   alt="Picture of questions GUI"></p>
 <p align="center"><i>Figure 3.2.2.2 User interface showing the layout of the questions tab.</i></p>
 
 ##### **Tutorial group page**
@@ -141,8 +141,8 @@ of all the students in the tutorial group across all the tutorial lessons.
 * Participation tab: this tab shows the participation score sheet of the students. Similarly, you may view
 the class participation grades of all the students in the tutorial group across all the tutorial lessons.
 
-<p align="center"><img src="images/viewgrpGUI.png" alt="Picture of group GUI"></p>
-
+<p align="center"><img src="images/userGuide/pages/GroupPage.png" 
+   alt="Picture of group GUI"></p>
 <p align="center"><i>Figure 3.2.2.3 User interface showing the layout of the group tab.</i></p>
 
 ##### **Tutorial lesson page**
@@ -158,8 +158,8 @@ You may also flag the student's attendance if necessary.
 * Questions tab: this tab contains the list of questions that were asked during this tutorial lesson. In this tab,
 you may add, edit, find or delete a [question](#44-question-addressing) that was asked during this tutorial lesson.
 
-<p align="center"><img src="images/viewlsnGUI.png" alt="Picture of lesson GUI"></p>
-
+<p align="center"><img src="images/userGuide/pages/LessonPage.png" 
+   alt="Picture of lesson GUI"></p>
 <p align="center"><i>Figure 3.2.2.4 User interface showing the layout of the lesson tab.</i></p>
 
 #### 3.2.3. General symbols and syntax
