@@ -86,11 +86,11 @@ What the 6 main components of the _GUI_ do:
 * _Side Bar_: This is where you can easily access flagged attendance records, pending questions and 
 existing tutorial groups.
 
-* _Title Display_: This is where *Serenity* displays the title of the page that you are viewing.
+* _Title Display_: This is where **Serenity** displays the title of the page that you are viewing.
 
-* _Data Display_: This is where *Serenity* displays the information of the page that you are viewing.
+* _Data Display_: This is where **Serenity** displays the information of the page that you are viewing.
 
-* _Result Display_: This is where *Serenity* displays guiding messages.
+* _Result Display_: This is where **Serenity** displays guiding messages.
 
 * _Command Box_: This is where you type your commands.
 
