@@ -1,6 +1,6 @@
 
 title: "Serenity"
-theme: minima
+theme: jekyll-theme-minimal
 
 header_pages:
   - UserGuide.md
