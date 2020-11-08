@@ -77,7 +77,15 @@ It is annotated with the name of the _GUI_ components.
 
 <p align="center"><img src="images/userGuide/Ui_annotated.png" alt="Layout of GUI" width=""></p>
 
-<p align="center"><i>Figure 3.2.1.1 layout of GUI.</i></p>
+<p align="center"><i>Figure 3.2.1.1 Annotated GUI of Serenity.</i></p>
+
+What the 6 main components of the GUI do:
+1. _Menu Bar_: This is where you can access our User Guide and exit the application.
+2. _Side Bar_: This is where you can easily access flagged attendance records, pending questions and existing tutorial groups.
+3. _Title Display_: This is where *Serenity* displays the title of the page that you are viewing.
+4. _Data Display_: This is where *Serenity* displays the information of the page that you are viewing.
+5. _Result Display_: This is where *Serenity* displays guiding messages.
+6. _Command Box_: This is where you type your commands.
 
 #### 3.2.2. Layout of the _GUI_
 
