@@ -155,7 +155,7 @@ This page shows the records for a specific lesson. This page consists of:
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Note:** This page is accessible using the `viewlsn` command
+:information_source: **Note:** This page is accessible using the `viewlsn` command
 
 </div>
 
@@ -178,7 +178,7 @@ Symbol/syntax | Meaning
 --------|------------------
 `command` | This indicates a technical term, which you can find out more in [Command syntax and usage](#323-command-syntax-and-usage).
 _GUI_ | This indicates a graphical component, such as a button, layout format and text input box.
-:memo: | This indicates a note.
+:information_source: | This indicates a note.
 :bulb: | This indicates a tip.
 :warning: | This indicates a warning.
 
@@ -204,7 +204,7 @@ You can use commands to tell **Serenity** to perform a specific task.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Notes regarding the command format:**
+:information_source: **Notes regarding the command format:**
 
 * Words in upper case are the parameters to be supplied by you.<br>
   e.g. in `viewgrp grp/GROUP_NAME`, `GROUP_NAME` is a parameter which can be used as `viewgrp grp/G01`
@@ -253,7 +253,7 @@ You can use this command to add a new tutorial group automatically from XLSX dat
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Notes regarding the `addgrp` command:**
+:information_source: **Notes regarding the `addgrp` command:**
 
 * A sample XLSX file can be found [here](https://github.com/AY2021S1-CS2103T-W12-4/tp/blob/master/CS2101_G04.xlsx)
 * The XLSX file should store a list of students.
@@ -311,7 +311,7 @@ You can use this command to delete an existing tutorial group.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Notes regarding the `delgrp` command:**
+:information_source: **Notes regarding the `delgrp` command:**
 
 After deleting a tutorial group, the button named after the tutorial group will be deleted as well.
 
@@ -712,7 +712,7 @@ attendance list submission as part of NUS Centre for English Language Communicat
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Notes regarding the `exportatt` command:**
+:information_source: **Notes regarding the `exportatt` command:**
 
 The attendance sheet will be saved as a XLSX file named after the tutorial group.
 The file will be saved at the same folder as your **Serenity** application.
@@ -904,7 +904,7 @@ You can use this command to export the participation score sheet of a specific t
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Notes regarding the `exportscore` command:**
+:information_source: **Notes regarding the `exportscore` command:**
 
 The participation score sheet will be saved as a XLSX file named after the tutorial group.
 The file will be saved at the same folder as your **Serenity** application.
@@ -1005,7 +1005,7 @@ You can use this command to edit an existing question that was asked in a tutori
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Notes regarding the `editqn` command:**
+:information_source: **Notes regarding the `editqn` command:**
 
 * You can edit the question's description, or the group/lesson the question was asked in.
 * The existing values will be updated to the new values.
@@ -1136,7 +1136,7 @@ The attendance sheet will be displayed in table form.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Notes regarding the `viewatt` command:**
+:information_source: **Notes regarding the `viewatt` command:**
 
 * You can view the attendance of all your students in the tutorial group at one glance.
 * You can also preview the XLSX file that you can generate with the `exportatt` command,
@@ -1173,7 +1173,7 @@ across all tutorial lessons. The participation score sheet will be displayed in 
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Notes regarding the `viewscore` command:**
+:information_source: **Notes regarding the `viewscore` command:**
 
 * You can view the participation score of all your students in the tutorial group at one glance.
 * You can also preview the XLSX file that you can generate with the `exportscore` command,
