@@ -110,7 +110,7 @@ This is the default page shown when the app is started. This page consists of:
 the `flagatt` command. Flagging a student's attendance serves as a reminder on the first page of the app
 for you to check on the student and perform any follow-up actions, if necessary. 
 
-  <div markdown="block" class="alert alert-info">
+  <div markdown="block" class="alert alert-primary">
 
     :bulb: **TIP:** Class has started! `Aaron Tan` is not in the zoom class yet. Flag his attendance and proceed 
     with teaching. With the flag attendance tab, you will be reminded to check again after class.
@@ -267,7 +267,7 @@ You can use this command to add a new tutorial group automatically from XLSX dat
 
 </div>
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-primary">
     
 :bulb: **Tip for the `addgrp` command:**
 
@@ -461,7 +461,7 @@ This feature allows you to mark attendance of students easily.
 
 You can use this command to mark all students in a tutorial group as present for a tutorial lesson.
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-primary">
 
 :bulb: **Tip for the `markpresent all` command:**
 
@@ -701,7 +701,7 @@ Outcome:
 
 You can use this command to export the attendance sheet of a specific tutorial group as a new Excel file.
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-primary">
 
 :bulb: **Tip for the `exportatt` command:**
 
@@ -1063,7 +1063,7 @@ The following commands allow you to navigate between different views.
 You can use this command to view the list of students and tutorial lessons of a tutorial group.
 You will also be able to execute tutorial group-related commands.
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-primary">
 
 :bulb: **Tip for the `viewgrp` command:**
 
@@ -1207,7 +1207,7 @@ Outcome:
 
 You can use this command to view students with their attendance marked as flagged across all tutorial lessons.
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-primary">
     
 :bulb: **Tip for the `viewflag` command:**
 
@@ -1216,7 +1216,7 @@ Pressing the button equals to typing this command.
     
 </div>
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-primary">
 
 :bulb: **Tip for the `viewflag` command:**
 
@@ -1253,7 +1253,7 @@ Outcome:
 You can use this command to view questions that were asked across all tutorial lessons
 and have yet to be addressed.
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-primary">
     
 :bulb: **Tip for the `viewqn` command:**
 
@@ -1262,7 +1262,7 @@ Pressing the button equals to typing this command.
     
 </div>
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-primary">
     
 :bulb: **Tip for the `viewqn` command:**
 
