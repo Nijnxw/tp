@@ -540,7 +540,7 @@ You can use this command to mark a specific student as absent for a tutorial les
 
 <div markdown="block" class="alert alert-info">
     :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
-<.div>
+</div>
 
 **Example:**
 
