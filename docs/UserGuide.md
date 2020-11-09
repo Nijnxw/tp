@@ -110,12 +110,12 @@ This is the default page shown when the app is started. This page consists of:
 the `flagatt` command. Flagging a student's attendance serves as a reminder on the first page of the app
 for you to check on the student and perform any follow-up actions, if necessary. 
 
-<div markdown="block" class="alert alert-info">
+  <div markdown="block" class="alert alert-info">
+
+    :bulb: TIP: Class has started! `Aaron Tan` is not in the zoom class yet. Flag his attendance and proceed 
+    with teaching. With the flag attendance tab, you will be reminded to check again after class.
     
-    :bulb: TIP: Class has started! `Aaron Tan` is not in the zoom class yet. Flag his attendance and 
-    proceed with teaching. With the flag attendance tab, you will be reminded to check again after class.
-    
-</div>
+  </div>
 
 <p align="center"><img src="images/userGuide/pages/HomePageFlagAttTab.png" 
    alt="Picture of flag attendance GUI" border="1px solid black"></p>
@@ -154,9 +154,9 @@ the class participation grades of all the students in the tutorial group across 
 This page shows the records for a specific lesson. This page consists of:
 
 <div markdown="block" class="alert alert-info">
-    
-     :memo: This page is accessible using the `viewlsn` command
-    
+
+:memo: This page is accessible using the `viewlsn` command
+
 </div>
 
 * Lesson tab: this tab contains the list of students in the tutorial group. For each student, you may
@@ -203,14 +203,14 @@ You can use commands to tell **Serenity** to perform a specific task.
 `COMMAND_WORD prefix/PARAMETER`
 
 <div markdown="block" class="alert alert-info">
-    
-    :memo: **Notes regarding the command format:**
-    
-    * Words in upper case are the parameters to be supplied by you.<br>
-      e.g. in `viewgrp grp/GROUP_NAME`, `GROUP_NAME` is a parameter which can be used as `viewgrp grp/G01`
-    * Parameters have to be in the specified order.<br>
-      e.g. if the command specifies `grp/GROUP_NAME lsn/LESSON_NAME`, `lsn/LESSON_NAME grp/GROUP_NAME` is not acceptable.
-    
+
+:memo: **Notes regarding the command format:**
+
+* Words in upper case are the parameters to be supplied by you.<br>
+  e.g. in `viewgrp grp/GROUP_NAME`, `GROUP_NAME` is a parameter which can be used as `viewgrp grp/G01`
+* Parameters have to be in the specified order.<br>
+  e.g. if the command specifies `grp/GROUP_NAME lsn/LESSON_NAME`, `lsn/LESSON_NAME grp/GROUP_NAME` is not acceptable.
+
 </div>
 
 **Example:**
@@ -252,28 +252,28 @@ Follow the instructions below to set up your new classes, and watch **Serenity**
 You can use this command to add a new tutorial group automatically from XLSX data.
 
 <div markdown="block" class="alert alert-info">
-    
-    :memo: **Notes regarding the `addgrp` command:**
-    
-    * A sample XLSX file can be found [here](https://github.com/AY2021S1-CS2103T-W12-4/tp/blob/master/CS2101_G04.xlsx)
-    * The XLSX file should store a list of students.
-    * The list of students you are importing cannot exist in another tutorial group.
-    * The format of the XLSX file should be the same as the XLSX file that you may download from LUMINUS.
-    * To obtain the PATH_TO_XLSX, either:<br>
-       ◦ Get the location of the XLSX file in your computer.<br>
-         e.g. `addgrp grp/G04 path/C:\Users\serene\CS2101_G04.xlsx`<br>
-       ◦ Copy and paste the XLSX file into the same folder as your **Serenity** application, then type the name of the XLSX file.<br>
-         e.g. `addgrp grp/G04 path/CS2101_G04.xlsx`
-    
+
+:memo: **Notes regarding the `addgrp` command:**
+
+* A sample XLSX file can be found [here](https://github.com/AY2021S1-CS2103T-W12-4/tp/blob/master/CS2101_G04.xlsx)
+* The XLSX file should store a list of students.
+* The list of students you are importing cannot exist in another tutorial group.
+* The format of the XLSX file should be the same as the XLSX file that you may download from LUMINUS.
+* To obtain the PATH_TO_XLSX, either:<br>
+   ◦ Get the location of the XLSX file in your computer.<br>
+     e.g. `addgrp grp/G04 path/C:\Users\serene\CS2101_G04.xlsx`<br>
+   ◦ Copy and paste the XLSX file into the same folder as your **Serenity** application, then type the name of the XLSX file.<br>
+     e.g. `addgrp grp/G04 path/CS2101_G04.xlsx`
+
 </div>
 
 <div markdown="block" class="alert alert-info">
     
-    :bulb: **Tip for the `addgrp` command:**
-    
-    After adding a tutorial group, a button will be created. It allows you to easily navigate to the group in the future,
-    as pressing the button equals to typing the `viewgrp grp/GROUP_NAME` command.
-        
+:bulb: **Tip for the `addgrp` command:**
+
+After adding a tutorial group, a button will be created. It allows you to easily navigate to the group in the future,
+as pressing the button equals to typing the `viewgrp grp/GROUP_NAME` command.
+
 </div>
 
 **Format:**
@@ -309,8 +309,13 @@ Outcome:
 
 You can use this command to delete an existing tutorial group.
 
-> :memo: **Notes regarding the `delgrp` command:**
-> After deleting a tutorial group, the button named after the tutorial group will be deleted as well.
+<div markdown="block" class="alert alert-info">
+
+:memo: **Notes regarding the `delgrp` command:**
+
+After deleting a tutorial group, the button named after the tutorial group will be deleted as well.
+
+</div>
 
 **Format:**
 
@@ -341,10 +346,10 @@ You can use this command to add a new tutorial lesson for a specified tutorial g
 `addlsn grp/GROUP_NAME lsn/LESSON_NAME`
 
 <div markdown="block" class="alert alert-info">
-    
-    :memo: LESSON_NAME follows the format 'X-Y' where X is the week number, and Y is the lesson number. There can be 
-    more than 9 weeks (as in 10-1) but not more than 9 lessons in a week (1-10 would be invalid).
-    
+
+:memo: LESSON_NAME follows the format 'X-Y' where X is the week number, and Y is the lesson number. There can be 
+more than 9 weeks (as in 10-1) but not more than 9 lessons in a week (1-10 would be invalid).
+
 </div>
 
 **Example:**
@@ -458,9 +463,10 @@ You can use this command to mark all students in a tutorial group as present for
 
 <div markdown="block" class="alert alert-info">
 
-    :bulb: **Tip for the `markpresent all` command:**
-    You can conveniently mark all students as present at once in the beginning of the tutorial lesson,
-    then mark some students as absent afterwards. You can then start your tutorial lesson without much hassle.
+:bulb: **Tip for the `markpresent all` command:**
+
+You can conveniently mark all students as present at once in the beginning of the tutorial lesson,
+then mark some students as absent afterwards. You can then start your tutorial lesson without much hassle.
 
 </div>
 
@@ -468,7 +474,11 @@ You can use this command to mark all students in a tutorial group as present for
 
 `markpresent all`
 
-> :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+<div markdown="block" class="alert alert-info">
+
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
+</div>
 
 **Example:**
 
@@ -500,7 +510,7 @@ You can use this command to mark a specific student as present for a tutorial le
 
 <div markdown="block" class="alert alert-info">
 
-    :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -539,7 +549,9 @@ You can use this command to mark a specific student as absent for a tutorial les
 <br>`markabsent INDEX`
 
 <div markdown="block" class="alert alert-info">
-    :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
 </div>
 
 **Example:**
@@ -583,7 +595,9 @@ all students in a tutorial group back as absent for a tutorial lesson.
 `markabsent all`
 
 <div markdown="block" class="alert alert-info">
-    :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
 </div>
 
 **Example:**
@@ -611,7 +625,9 @@ attendance at the end of class.
 <br>`flagatt INDEX`
 
 <div markdown="block" class="alert alert-info">
-    :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
 </div>
 
 **Example:**
@@ -650,7 +666,9 @@ using `unflagatt` command.
 <br>`unflagatt INDEX`
 
 <div markdown="block" class="alert alert-info">
-    :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
 </div>
 
 **Example:**
@@ -685,20 +703,20 @@ You can use this command to export the attendance sheet of a specific tutorial g
 
 <div markdown="block" class="alert alert-info">
 
-    :bulb: **Tip for the `exportatt` command:**
-    
-    You can conveniently obtain the soft copy version of the attendance sheet for
-    attendance list submission as part of NUS Centre for English Language Communication requirements.
-    
+:bulb: **Tip for the `exportatt` command:**
+
+You can conveniently obtain the soft copy version of the attendance sheet for
+attendance list submission as part of NUS Centre for English Language Communication requirements.
+
 </div>
 
 <div markdown="block" class="alert alert-info">
-    
-    :memo: **Note regarding the `exportatt` command:**
-    
-    The attendance sheet will be saved as a XLSX file named after the tutorial group.
-    The file will be saved at the same folder as your **Serenity** application.
-    
+
+:memo: **Note regarding the `exportatt` command:**
+
+The attendance sheet will be saved as a XLSX file named after the tutorial group.
+The file will be saved at the same folder as your **Serenity** application.
+
 </div>
 
 **Format**:
@@ -755,7 +773,9 @@ The maximum score is 5.
 <br>`addscore INDEX score/SCORE_TO_ADD`
 
 <div markdown="block" class="alert alert-info">
-    :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
 </div>
 
 **Example:**
@@ -793,9 +813,12 @@ Outcome:
 You can use this command to decrease the participation score of a specific student for a tutorial lesson.
 
 <div markdown="block" class="alert alert-info">
-    :warning: **Warning regarding the `subscore` command:**
-    You cannot decrease the participation score of a student such that the final score is less than 0.
-    The minimum score is 0.
+
+:warning: **Warning regarding the `subscore` command:**
+
+You cannot decrease the participation score of a student such that the final score is less than 0.
+The minimum score is 0.
+
 </div>
 
 **Format:**
@@ -804,7 +827,9 @@ You can use this command to decrease the participation score of a specific stude
 <br>`subscore INDEX score/SCORE`
 
 <div markdown="block" class="alert alert-info">
-    :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
 </div>
 
 **Example:**
@@ -842,7 +867,9 @@ You can use this command to edit participation score of a specific student in a 
 <br>`editscore INDEX score/SCORE`
 
 <div markdown="block" class="alert alert-info">
-    :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
 </div>
 
 **Example:**
@@ -877,10 +904,10 @@ You can use this command to export the participation score sheet of a specific t
 
 <div markdown="block" class="alert alert-info">
 
-    :memo: **Note regarding the `exportscore` command:**
-    
-    The participation score sheet will be saved as a XLSX file named after the tutorial group.
-    The file will be saved at the same folder as your **Serenity** application.
+:memo: **Note regarding the `exportscore` command:**
+
+The participation score sheet will be saved as a XLSX file named after the tutorial group.
+The file will be saved at the same folder as your **Serenity** application.
     
 </div>
 
@@ -919,7 +946,9 @@ in the future.
 `addqn qn/QUESTION`
 
 <div markdown="block" class="alert alert-info">
-    :memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
+:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+
 </div>
 
 **Example:**
@@ -976,12 +1005,12 @@ You can use this command to edit an existing question that was asked in a tutori
 
 <div markdown="block" class="alert alert-info">
 
-    :memo: **Note regarding the `editqn` command:**
-    
-    * You can edit the question's description, or the group/lesson the question was asked in.
-    * The existing values will be updated to the new values.
-    * If `grp/GROUP_NAME` or `lsn/LESSON_NAME` is supplied, ensure that the group or lesson exists.
-      Otherwise, an error message will be displayed to alert you.
+:memo: **Note regarding the `editqn` command:**
+
+* You can edit the question's description, or the group/lesson the question was asked in.
+* The existing values will be updated to the new values.
+* If `grp/GROUP_NAME` or `lsn/LESSON_NAME` is supplied, ensure that the group or lesson exists.
+  Otherwise, an error message will be displayed to alert you.
   
 </div>
 
@@ -1036,10 +1065,10 @@ You will also be able to execute tutorial group-related commands.
 
 <div markdown="block" class="alert alert-info">
 
-    :bulb: **Tip for the `viewgrp` command:**
-    
-    You can easily navigate to the tutorial group by pressing its button in the Side_Bar as well!
-    Pressing the tutorial group's button equals to typing this command.
+:bulb: **Tip for the `viewgrp` command:**
+
+You can easily navigate to the tutorial group by pressing its button in the Side_Bar as well!
+Pressing the tutorial group's button equals to typing this command.
     
 </div>
 
@@ -1107,11 +1136,11 @@ The attendance sheet will be displayed in table form.
 
 <div markdown="block" class="alert alert-info">
 
-    :memo: **Note regarding the `viewatt` command:**
-    
-    You can view the attendance of all your students in the tutorial group at one glance.
-    You can also preview the XLSX file that you can generate with the `exportatt` command,
-    before generating the actual XLSX file.
+:memo: **Note regarding the `viewatt` command:**
+
+You can view the attendance of all your students in the tutorial group at one glance.
+You can also preview the XLSX file that you can generate with the `exportatt` command,
+before generating the actual XLSX file.
     
 </div>
 
@@ -1144,11 +1173,11 @@ across all tutorial lessons. The participation score sheet will be displayed in 
 
 <div markdown="block" class="alert alert-info">
 
-    :memo: **Note regarding the `viewscore` command:**
-    
-    You can view the participation score of all your students in the tutorial group at one glance.
-    You can also preview the XLSX file that you can generate with the `exportscore` command,
-    before generating the actual XLSX file.
+:memo: **Note regarding the `viewscore` command:**
+
+You can view the participation score of all your students in the tutorial group at one glance.
+You can also preview the XLSX file that you can generate with the `exportscore` command,
+before generating the actual XLSX file.
     
 </div>
 
@@ -1180,20 +1209,20 @@ You can use this command to view students with their attendance marked as flagge
 
 <div markdown="block" class="alert alert-info">
     
-    :bulb: **Tip for the `viewflag` command:**
-    
-    You can easily navigate to the flagged attendance list by pressing the "Flag" button in the Side_Bar as well!
-    Pressing the button equals to typing this command.
+:bulb: **Tip for the `viewflag` command:**
+
+You can easily navigate to the flagged attendance list by pressing the "Flag" button in the Side_Bar as well!
+Pressing the button equals to typing this command.
     
 </div>
 
 <div markdown="block" class="alert alert-info">
 
-    :bulb: **Tip for the `viewflag` command:**
-    
-    Instead of viewing flagged attendance across all tutorial lessons,
-    you can view flagged attendance for a specific tutorial lesson by
-    entering the tutorial lesson page using `viewlsn` and scrolling through the "Lesson" tab in the page.
+:bulb: **Tip for the `viewflag` command:**
+
+Instead of viewing flagged attendance across all tutorial lessons,
+you can view flagged attendance for a specific tutorial lesson by
+entering the tutorial lesson page using `viewlsn` and scrolling through the "Lesson" tab in the page.
 
 </div>
 
@@ -1226,20 +1255,20 @@ and have yet to be addressed.
 
 <div markdown="block" class="alert alert-info">
     
-    :bulb: **Tip for the `viewqn` command:**
-    
-    You can easily navigate to the pending questions list by pressing the "Qns" button in the Side_Bar as well!
-    Pressing the button equals to typing this command.
+:bulb: **Tip for the `viewqn` command:**
+
+You can easily navigate to the pending questions list by pressing the "Qns" button in the Side_Bar as well!
+Pressing the button equals to typing this command.
     
 </div>
 
 <div markdown="block" class="alert alert-info">
     
-    :bulb: **Tip for the `viewqn` command:**
-    
-    Instead of viewing pending questions across all tutorial lessons,
-    You can view questions for a specific tutorial lesson by
-    entering the tutorial lesson page using `viewlsn` and pressing the "Questions" tab in the page.
+:bulb: **Tip for the `viewqn` command:**
+
+Instead of viewing pending questions across all tutorial lessons,
+You can view questions for a specific tutorial lesson by
+entering the tutorial lesson page using `viewlsn` and pressing the "Questions" tab in the page.
     
 </div>
 
