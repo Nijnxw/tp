@@ -112,7 +112,7 @@ for you to check on the student and perform any follow-up actions, if necessary.
 
   <div markdown="block" class="alert alert-info">
 
-    :bulb: TIP: Class has started! `Aaron Tan` is not in the zoom class yet. Flag his attendance and proceed 
+    :bulb: **TIP:** Class has started! `Aaron Tan` is not in the zoom class yet. Flag his attendance and proceed 
     with teaching. With the flag attendance tab, you will be reminded to check again after class.
     
   </div>
@@ -155,7 +155,7 @@ This page shows the records for a specific lesson. This page consists of:
 
 <div markdown="block" class="alert alert-info">
 
-:memo: This page is accessible using the `viewlsn` command
+:memo: **Note:** This page is accessible using the `viewlsn` command
 
 </div>
 
@@ -260,9 +260,9 @@ You can use this command to add a new tutorial group automatically from XLSX dat
 * The list of students you are importing cannot exist in another tutorial group.
 * The format of the XLSX file should be the same as the XLSX file that you may download from LUMINUS.
 * To obtain the PATH_TO_XLSX, either:<br>
-   ◦ Get the location of the XLSX file in your computer.<br>
+   * Get the location of the XLSX file in your computer.<br>
      e.g. `addgrp grp/G04 path/C:\Users\serene\CS2101_G04.xlsx`<br>
-   ◦ Copy and paste the XLSX file into the same folder as your **Serenity** application, then type the name of the XLSX file.<br>
+   * Copy and paste the XLSX file into the same folder as your **Serenity** application, then type the name of the XLSX file.<br>
      e.g. `addgrp grp/G04 path/CS2101_G04.xlsx`
 
 </div>
@@ -347,7 +347,7 @@ You can use this command to add a new tutorial lesson for a specified tutorial g
 
 <div markdown="block" class="alert alert-info">
 
-:memo: LESSON_NAME follows the format 'X-Y' where X is the week number, and Y is the lesson number. There can be 
+:warning: **Warning:** LESSON_NAME follows the format 'X-Y' where X is the week number, and Y is the lesson number. There can be 
 more than 9 weeks (as in 10-1) but not more than 9 lessons in a week (1-10 would be invalid).
 
 </div>
@@ -476,7 +476,7 @@ then mark some students as absent afterwards. You can then start your tutorial l
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -510,7 +510,7 @@ You can use this command to mark a specific student as present for a tutorial le
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -550,7 +550,7 @@ You can use this command to mark a specific student as absent for a tutorial les
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -596,7 +596,7 @@ all students in a tutorial group back as absent for a tutorial lesson.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -626,7 +626,7 @@ attendance at the end of class.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -667,7 +667,7 @@ using `unflagatt` command.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -712,7 +712,7 @@ attendance list submission as part of NUS Centre for English Language Communicat
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Note regarding the `exportatt` command:**
+:memo: **Notes regarding the `exportatt` command:**
 
 The attendance sheet will be saved as a XLSX file named after the tutorial group.
 The file will be saved at the same folder as your **Serenity** application.
@@ -774,7 +774,7 @@ The maximum score is 5.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -828,7 +828,7 @@ The minimum score is 0.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -868,7 +868,7 @@ You can use this command to edit participation score of a specific student in a 
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -904,7 +904,7 @@ You can use this command to export the participation score sheet of a specific t
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Note regarding the `exportscore` command:**
+:memo: **Notes regarding the `exportscore` command:**
 
 The participation score sheet will be saved as a XLSX file named after the tutorial group.
 The file will be saved at the same folder as your **Serenity** application.
@@ -947,7 +947,7 @@ in the future.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
+:warning: **Warning:** You must navigate to the tutorial lesson page through `viewlsn` before this command can be used.
 
 </div>
 
@@ -1005,7 +1005,7 @@ You can use this command to edit an existing question that was asked in a tutori
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Note regarding the `editqn` command:**
+:memo: **Notes regarding the `editqn` command:**
 
 * You can edit the question's description, or the group/lesson the question was asked in.
 * The existing values will be updated to the new values.
@@ -1136,11 +1136,11 @@ The attendance sheet will be displayed in table form.
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Note regarding the `viewatt` command:**
+:memo: **Notes regarding the `viewatt` command:**
 
-You can view the attendance of all your students in the tutorial group at one glance.
-You can also preview the XLSX file that you can generate with the `exportatt` command,
-before generating the actual XLSX file.
+* You can view the attendance of all your students in the tutorial group at one glance.
+* You can also preview the XLSX file that you can generate with the `exportatt` command,
+  before generating the actual XLSX file.
     
 </div>
 
@@ -1173,11 +1173,11 @@ across all tutorial lessons. The participation score sheet will be displayed in 
 
 <div markdown="block" class="alert alert-info">
 
-:memo: **Note regarding the `viewscore` command:**
+:memo: **Notes regarding the `viewscore` command:**
 
-You can view the participation score of all your students in the tutorial group at one glance.
-You can also preview the XLSX file that you can generate with the `exportscore` command,
-before generating the actual XLSX file.
+* You can view the participation score of all your students in the tutorial group at one glance.
+* You can also preview the XLSX file that you can generate with the `exportscore` command,
+  before generating the actual XLSX file.
     
 </div>
 
