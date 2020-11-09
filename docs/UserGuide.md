@@ -110,8 +110,12 @@ This is the default page shown when the app is started. This page consists of:
 the `flagatt` command. Flagging a student's attendance serves as a reminder on the first page of the app
 for you to check on the student and perform any follow-up actions, if necessary. 
 
-> :bulb: TIP: Class has started! `Aaron Tan` is not in the zoom class yet. Flag his attendance and 
->proceed with teaching. With the flag attendance tab, you will be reminded to check again after class.
+<div markdown="block" class="alert alert-info">
+
+:bulb: TIP: Class has started! `Aaron Tan` is not in the zoom class yet. Flag his attendance and 
+proceed with teaching. With the flag attendance tab, you will be reminded to check again after class.
+
+</div>
 
 <p align="center"><img src="images/userGuide/pages/HomePageFlagAttTab.png" 
    alt="Picture of flag attendance GUI" border="1px solid black"></p>
@@ -686,9 +690,14 @@ Participation score scale from 1 to 5:
 
 You can use this command to increase the participation score of a specific student for a tutorial lesson.
 
-> :warning: **Warning regarding the `addscore` command:**
-> You cannot increase the participation score of a student such that the final score is more than 5.
-> The maximum score is 5.
+<div markdown="block" class="alert alert-info">
+
+:warning: **Warning regarding the `addscore` command:**
+
+You cannot increase the participation score of a student such that the final score is more than 5.
+The maximum score is 5.
+
+</div>
 
 **Format:**
 <br>`addscore name/STUDENT_NAME matric/STUDENT_NUMBER score/SCORE_TO_ADD`
